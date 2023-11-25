@@ -1,0 +1,99 @@
+.events-container{
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.events-container h2{
+  color: #FFF;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+}
+
+.event-cards{
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  align-items: center;
+}
+
+.events-card{
+  position: relative;
+  align-items: center;
+  color: #FFF;
+  justify-content: center;
+  background-color: rgb(255, 255, 255, 0.05);
+  border-radius: 0.4rem;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.events-card h3{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+
+.event-card-background-light{
+  position: absolute;
+  background: linear-gradient(270deg, #3A64FA 47.4%, #F963BC 92.87%);
+  border-radius: 50%;
+  filter: blur(70px);
+  top: -2vw;
+  left: -2vw;
+  transition: all 0.2s ease;
+}
+
+.events-card:hover .event-card-background-light{
+  top: 60%; 
+  left: 60%;
+}
+
+.events-card:hover h3{
+  transform: scale(1.2);
+}
+
+/* Mobile Devices (up to 767px) */
+@media only screen and (max-width: 767px) {
+  
+}
+
+/* Tablet Devices (768px to 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/* Small Desktops and Laptops (992px to 1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/* Large Desktops (1200px and above) */
+@media only screen and (min-width: 1200px) {
+  .events-container{
+    margin-left: 10vw;
+  }
+
+  .event-cards{
+    height: 80vh;
+  }
+  
+  .events-card{
+    height: 65vh;
+    min-width: 24vw;
+    margin-right: 3.5rem;
+  }
+
+  .events-container h2{
+    font-size: 3.5vw;
+  }
+
+  .events-card h3{
+    font-size: 2.8vw;
+  }
+
+  .event-card-background-light{
+    height: 15vw;
+    width: 18vw;
+  }
+}

@@ -1,0 +1,147 @@
+.team-image{
+  position: relative;
+  justify-content: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+.background-circle {
+  position: absolute;
+  height: 130%;
+  width: 95%;
+  background: radial-gradient(circle, rgba(249, 99, 188, 0) 0%, rgba(249, 99, 188, 0.2) 50%, rgba(249, 99, 188, 0) 100%);
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(0%, 0%);
+}
+
+.team-image img{
+  position: absolute;
+  width: 90vw;
+}
+
+.team-leads{
+  height: 100vh;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-around;
+  text-align: center;
+  z-index: 2;
+}
+
+.team-leads h2{
+  color: #FFF;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  z-index: 2;
+}
+
+.lead-card{
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 0.325rem;
+  background-color: rgba(255,255,255,0.05);
+  backdrop-filter: blur(15px);
+}
+
+.lead-card-img{
+  border: 5px solid transparent;
+  background: linear-gradient(to left, darkblue, darkorchid) border-box;
+  border-radius: 50%;
+}
+
+.lead-card-img img{
+  width: 100%;
+  aspect-ratio: 1;
+  filter: grayscale(90%);
+  border-radius: 50%;
+}
+
+.lead-card p{
+  margin: 10px;
+  color: #FFF;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.lead-card .name{
+  font-weight: 700;
+}
+
+.social-icon{
+  position: absolute;
+  color: #FFF;
+}
+
+.teams{
+  height: 70vh;
+  align-items: center;
+}
+
+.teams-card{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 0.35rem;
+  background-color: rgba(255,255,255,0.05);
+}
+
+/* Mobile Devices (up to 767px) */
+@media only screen and (max-width: 767px) {
+  
+}
+
+/* Tablet Devices (768px to 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/* Small Desktops and Laptops (992px to 1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large Desktops (1200px and above) */
+@media only screen and (min-width: 1200px) {
+  .team-image image{
+    top: -10vh;
+  }
+
+  .team-leads{
+    padding: 5vw;
+  }
+
+  .team-leads h2{
+    font-size: 3.5vw;
+  }
+
+  .lead-card{
+    height: 50vh;
+    width: 25vw;
+    padding: 3vw;
+  }
+
+  .lead-card-img{
+    width: 60%;
+  }
+
+  .lead-card .name{
+    font-size: 1.25vw;
+  }
+
+  .lead-card .position{
+    font-size: 0.875vw;
+  }
+
+  .social-icon{
+    top: 3vw;
+    right: 3vw;
+  }
+
+  .teams-card{
+    height: 50vh;
+    width: 20vw;
+  }
+}

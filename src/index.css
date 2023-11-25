@@ -1,0 +1,59 @@
+body{
+  background-color: #080216;
+  font-family: 'IBM Plex Mono', monospace;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.flex{
+  display: flex;
+}
+
+.join-button{
+  background: transparent;
+  border: 1px solid white;
+  color: rgb(255,255,255,0.7);
+  border-radius: 0.25rem;
+}
+
+.row{
+  padding: 0;
+  margin: 0;
+}
+
+.pink-text{
+  color: #F963BC;
+}
+
+@media only screen and (max-width: 767px){
+  .background-light{
+    position: absolute;
+    filter: blur(50px);
+    z-index: -1;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .background-light{
+    position: absolute;
+    filter: blur(90px);
+    z-index: -1;
+  }
+}
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  height: 0px;
+  width: 4px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #F963BC; 
+  border-radius: 2px; 
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: transparent; 
+}
+
