@@ -1,5 +1,4 @@
 .events-container{
-  height: 100vh;
   flex-direction: column;
   justify-content: center;
 }
@@ -55,7 +54,33 @@
 
 /* Mobile Devices (up to 767px) */
 @media only screen and (max-width: 767px) {
+  .events-container{
+    height: 65vh;
+    margin-left: 10vw;
+  }
+
+  .event-cards{
+    height: 45vh;
+  }
   
+  .events-card{
+    height: 35vh;
+    min-width: 60vw;
+    margin-right: 3rem;
+  }
+
+  .events-container h2{
+    font-size: 6vw;
+  }
+
+  .events-card h3{
+    font-size: 5vw;
+  }
+
+  .event-card-background-light{
+    height: 30vw;
+    width: 40vw;
+  }
 }
 
 /* Tablet Devices (768px to 991px) */
@@ -71,6 +96,7 @@
 /* Large Desktops (1200px and above) */
 @media only screen and (min-width: 1200px) {
   .events-container{
+    height: 100vh;
     margin-left: 10vw;
   }
 

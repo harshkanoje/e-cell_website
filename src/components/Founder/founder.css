@@ -1,6 +1,5 @@
 .message-container{
   position: relative;
-  height: 100vh;
   align-items: center;
   justify-content: center;
 }
@@ -39,7 +38,39 @@
 
 /* Mobile Devices (up to 767px) */
 @media only screen and (max-width: 767px) {
+  /* .message-container{
+    height: 75vh;
+  } */
   
+  .message{
+    width: 90vw;
+    padding: 2rem 1.75rem;
+  }
+
+  .founder-img img{
+    height: 25vh;
+  }
+
+  .founder-message-container{
+    height: 42vh;
+    padding-top: 2rem;
+    text-align: center;
+  }
+
+  .founder-message{
+    font-size: 4.2vw;
+  }
+
+  .founder{
+    font-size: 3vw;
+  }
+
+  .bl-3{
+    width: 30vw;
+    height: 30vw;
+    bottom: 5vw;
+    left: 2vw;
+  }
 }
 
 /* Tablet Devices (768px to 991px) */
@@ -54,6 +85,10 @@
 
 /* Large Desktops (1200px and above) */
 @media only screen and (min-width: 1200px) {
+  .message-container{
+    height: 100vh;
+  }
+  
   .message{
     width: 75vw;
     padding: 4rem 1.75rem;

@@ -6,7 +6,7 @@ export default function LeadCards(props) {
   return (
     <div className='lead-card flex'>
       <div className='lead-card-img'>
-        <img src={props.img}/>
+        <img src={props.img} alt='lead'/>
       </div>
       <div>
         <p className='name'>{props.name}</p>
