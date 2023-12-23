@@ -7,6 +7,7 @@
   color: #FFF;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 700;
+  text-align: center;
 }
 
 .event-cards{
@@ -85,12 +86,64 @@
 
 /* Tablet Devices (768px to 991px) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .events-container{
+    height: 70vh;
+    margin-left: 10vw;
+  }
+
+  .event-cards{
+    height: 60vh;
+  }
   
+  .events-card{
+    height: 45vh;
+    min-width: 60vw;
+    margin-right: 3rem;
+  }
+
+  .events-container h2{
+    font-size: 6vw;
+  }
+
+  .events-card h3{
+    font-size: 4.5vw;
+  }
+
+  .event-card-background-light{
+    height: 30vw;
+    width: 35vw;
+  }
 }
 
 /* Small Desktops and Laptops (992px to 1199px) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .events-container{
+    height: 100vh;
+    margin-left: 10vw;
+  }
+
+  .event-cards{
+    height: 85vh;
+  }
   
+  .events-card{
+    height: 60vh;
+    min-width: 24vw;
+    margin-right: 3rem;
+  }
+
+  .events-container h2{
+    font-size: 3.5vw;
+  }
+
+  .events-card h3{
+    font-size: 2.5vw;
+  }
+
+  .event-card-background-light{
+    height: 15vw;
+    width: 18vw;
+  }  
 }
 
 /* Large Desktops (1200px and above) */

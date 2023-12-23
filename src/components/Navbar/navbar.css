@@ -55,12 +55,63 @@
 
 /* Tablet Devices (768px to 991px) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  
+  .navbar{
+    padding: 3rem 4rem;
+  }
+
+  .navbar-collapse{
+    flex-grow: 0;
+  }
+
+  .logo{
+    height: 7.5vh;
+  }
+
+  .navbar-collapse{
+    text-align: center;
+  }
+
+  .navbar-items{
+    flex-direction: column;
+    font-size: 1.3rem;
+  }
+
+  .navbar-items div{
+    margin: 0.75rem 1.125rem;
+  }
+
+  .navbar .join-button{
+    height: 6vw;
+    width: 23vw;
+    margin-top: 15px;
+    font-size: 1.2rem;
+  }
 }
 
 /* Small Desktops and Laptops (992px to 1199px) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  
+  .navbar{
+    padding: 2rem 5rem;
+  }
+
+  .navbar-collapse{
+    flex-grow: 0;
+    width: 55vw;
+  }
+
+  .logo{
+    height: 8vh;
+  }
+
+  .navbar-items div{
+    margin: 0rem 1.125rem;
+  }
+
+  .navbar .join-button{
+    height: 3vw;
+    width: 9vw;
+    font-size: 0.8rem;
+  } 
 }
 
 /* Large Desktops (1200px and above) */

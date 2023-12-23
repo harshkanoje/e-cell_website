@@ -33,10 +33,26 @@ body{
   }
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .background-light{
     position: absolute;
     filter: blur(90px);
+    z-index: -1;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .background-light{
+    position: absolute;
+    filter: blur(95px);
+    z-index: -1;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .background-light{
+    position: absolute;
+    filter: blur(100px);
     z-index: -1;
   }
 }

@@ -111,12 +111,131 @@
 
 /* Tablet Devices (768px to 991px) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  
+  .heading{
+    height: 65vh;
+    width: 80vw;
+    justify-content: space-evenly;
+  }
+
+  .heading h1{
+    font-size: 6.5vw;
+    line-height: 5.5rem;
+  }
+
+  .heading p{
+    width: 80vw;
+    font-size: 3vw;
+    margin-top: 5vw;
+  }
+
+  .heading button{
+    height: 7vw;
+    width: 45vw;
+    margin-top: 3vw;
+    font-size: 3vw;
+  }
+
+  .bl-1{
+    width: 30vw;
+    height: 30vw;
+    top: 15vw;
+    left: 5vw;
+  }
+
+  .bl-2{
+    width: 25vw;
+    height: 25vw;
+    right: 0vw;
+    top: 55vh;
+  }
+
+  .about{
+    height: 70vh;
+  }
+
+  .pattern img{
+    display: none;
+  }
+
+  .description{
+    height: 60vh;
+    width: 90vw;
+  }
+
+  .description h3{
+    font-size: 6vw;
+  }
+
+  .description p{
+    font-size: 3vw;
+    justify-content: space-evenly;
+  }
 }
 
 /* Small Desktops and Laptops (992px to 1199px) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  
+  .heading{
+    height: 80vh;
+    width: 70vw;
+  }
+
+  .heading h1{
+    font-size: 4vw;
+    line-height: 4.5rem;
+  }
+
+  .heading p{
+    width: 60vw;
+    font-size: 1.4vw;
+    margin-top: 3vw;
+  }
+
+  .heading button{
+    height: 3.5vw;
+    width: 20vw;
+    margin-top: 3vw;
+    font-size: 0.9rem;
+  }
+
+  .bl-1{
+    width: 25vw;
+    height: 23vw;
+    top: 8vw;
+    left: 5vw;
+  }
+
+  .bl-2{
+    width: 20vw;
+    height: 22vw;
+    right: 8vw;
+    top: 32vw;
+  }
+
+  .about{
+    height: 100vh;
+  }
+
+  .pattern{
+    height: 100vh;
+  }
+
+  .pattern img{
+    height: 90vh;
+  }
+
+  .description{
+    height: 100vh;
+    padding: 7vw 5vw;
+  }
+
+  .description h3{
+    font-size: 3.5vw;
+  }
+
+  .description p{
+    font-size: 1.4vw;
+    line-height: 1.7rem;
+  }  
 }
 
 /* Large Desktops (1200px and above) */
@@ -166,7 +285,7 @@
   }
 
   .pattern img{
-    height: 90vh;
+    height: 85vh;
   }
 
   .description{
@@ -179,7 +298,7 @@
   }
 
   .description p{
-    font-size: 1.2 vw;
+    font-size: 1.2vw;
     line-height: 1.9rem;
   }
 }

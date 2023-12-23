@@ -75,12 +75,75 @@
 
 /* Tablet Devices (768px to 991px) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .message-container{
+    height: 80vh;
+  }
   
+  .message{
+    width: 90vw;
+    padding: 2rem 1.75rem;
+  }
+
+  .founder-img img{
+    height: 40vw;
+  }
+
+  .founder-message-container{
+    /* height: 45vh; */
+    padding-top: 4rem;
+    text-align: center;
+  }
+
+  .founder-message{
+    font-size: 3.7vw;
+  }
+
+  .founder{
+    font-size: 3vw;
+  }
+
+  .bl-3{
+    width: 30vw;
+    height: 30vw;
+    bottom: 5vw;
+    left: 0vw;
+  }
 }
 
 /* Small Desktops and Laptops (992px to 1199px) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .message-container{
+    height: 90vh;
+  }
   
+  .message{
+    width: 75vw;
+    padding: 4rem 2rem;
+  }
+
+  .founder-img img{
+    height: 40vh;
+  }
+
+  .founder-message-container{
+    height: 40vh;
+  }
+
+  .founder-message{
+    font-size: 1.5vw;
+    line-height: 2.6vw;
+  }
+
+  .founder{
+    font-size: 1.3vw;
+  }
+
+  .bl-3{
+    width: 15vw;
+    height: 16vw;
+    bottom: 10vw;
+    left: 0vw;
+  } 
 }
 
 /* Large Desktops (1200px and above) */
