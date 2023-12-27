@@ -16,6 +16,7 @@
   align-items: center;
 }
 
+
 .events-card{
   position: relative;
   align-items: center;
@@ -57,7 +58,7 @@
 @media only screen and (max-width: 767px) {
   .events-container{
     height: 65vh;
-    margin-left: 10vw;
+    margin-left: 0vw;
   }
 
   .event-cards{
@@ -67,7 +68,8 @@
   .events-card{
     height: 35vh;
     min-width: 60vw;
-    margin-right: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
   }
 
   .events-container h2{
@@ -88,7 +90,7 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .events-container{
     height: 70vh;
-    margin-left: 10vw;
+    margin-left: 0vw;
   }
 
   .event-cards{
@@ -99,6 +101,7 @@
     height: 45vh;
     min-width: 60vw;
     margin-right: 3rem;
+    margin-left: 3rem;
   }
 
   .events-container h2{
@@ -119,7 +122,7 @@
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .events-container{
     height: 100vh;
-    margin-left: 10vw;
+    margin-left: 0vw;
   }
 
   .event-cards{
@@ -130,6 +133,7 @@
     height: 60vh;
     min-width: 24vw;
     margin-right: 3rem;
+    margin-left: 3rem;
   }
 
   .events-container h2{
@@ -150,7 +154,7 @@
 @media only screen and (min-width: 1200px) {
   .events-container{
     height: 100vh;
-    margin-left: 10vw;
+    margin-left: 0vw;
   }
 
   .event-cards{
@@ -160,7 +164,8 @@
   .events-card{
     height: 65vh;
     min-width: 24vw;
-    margin-right: 3.5rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
   }
 
   .events-container h2{
