@@ -15,6 +15,11 @@
   font-size: 0.9rem;
 }
 
+.navbar-items_a:hover{
+color: aliceblue;
+font-weight: bold;
+}
+
 .navbar-items div{
   cursor: pointer;
 }
