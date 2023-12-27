@@ -16,6 +16,12 @@ body{
   border-radius: 0.25rem;
 }
 
+.join-button:hover{
+  border-color: #F963BC;
+  font-weight: 600;
+  color: white;
+}
+
 .row{
   padding: 0;
   margin: 0;

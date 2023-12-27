@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <div className='navbar-items flex'>
           <div>Home</div>
-          <div>About-US</div>
+          <div>About-Us</div>
           <div>Events</div>
           <div>Contact</div>
         </div>
