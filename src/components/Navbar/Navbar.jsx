@@ -15,10 +15,10 @@ export default function Navbar() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <div className='navbar-items flex'>
-          <div>Home</div>
-          <div>About-Us</div>
-          <div>Events</div>
-          <div>Contact</div>
+          <div className='navbar-items_a'>Home</div>
+          <div className='navbar-items_a'>About-Us</div>
+          <div className='navbar-items_a'>Events</div>
+          <div className='navbar-items_a'>Contact</div>
         </div>
         <button className='join-button'>Join now</button>
       </div>
