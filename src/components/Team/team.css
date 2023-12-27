@@ -145,6 +145,8 @@
   .teams-card{
     height: 35vh;
     min-width: 50vw;
+    margin-left: 0.5rem;
+    margin-right: 2rem;
   }
 }
 
@@ -212,6 +214,8 @@
   .teams-card{
     height: 45vh;
     min-width: 55vw;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
 
@@ -272,6 +276,8 @@
   .teams-card{
     height: 50vh;
     min-width: 20vw;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
 
@@ -332,5 +338,7 @@
   .teams-card{
     height: 50vh;
     min-width: 20vw;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
