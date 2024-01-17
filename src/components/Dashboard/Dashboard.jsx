@@ -10,9 +10,13 @@ export default function Dashboard() {
       <div className='heading flex'>
         <h1><span className='pink-text'>/</span> Transforming Dreams into Reality <span className='pink-text'>/</span> <br /> One Start-Up at a Time!</h1>
         <p>
-          Unleash your entrepreneurial spirit with E-Cell, VIT Bhopal! Dive into an ecosystem 
-          where innovation meets passion, and ideas transform into impact. Let’s create, 
-          collaborate, and change the world together!
+        Welcome to the Entrepreneurial Cell of VIT Bhopal, 
+        a dynamic hub dedicated to nurturing and empowering the next generation of entrepreneurs across India. 
+        The future of your idea begins here, at the Entrepreneurial Cell of VIT Bhopal - where we don't just promote entrepreneurs, 
+        we build success stories.
+        </p>
+        <p>
+        Kickstart Your Journey now!
         </p>
         <button className='join-button'>Start Your Journey</button>
         <img className="background-light bl-1" src={BackgroundLight} alt=""/>
@@ -27,18 +31,17 @@ export default function Dashboard() {
         <div class="col-lg-7 description flex">
           <h3>Ecell VIT-Bhopal</h3>
           <p>
-            Meltano unlocks software development workflows for data
-            movement and gives data engineers complete control and visibility
-            of their pipelines, delivering unparalleled efficiency and confidence
-            in every change. With Meltano, data teams can fetch data from
-            anywhere, send data anywhere, and transform their data their way.
+      
+            E-cell or Entrepreneurship cell of VIT Bhopal is a community of like minded people,
+            fostering the spirit of entrepreneurship. Our mission is to cultivate and empower the emerging visionaries of tomorrow, 
+            providing comprehensive guidance and unwavering support to transform groundbreaking ideas into successful ventures. 
+            The E-Cell is committed to building a dynamic entrepreneurial ecosystem, serving as a catalyst for creativity, innovation, 
+            and business acumen.
+
           </p>
           <p>
-            Meltano unlocks software development workflows for data
-            movement and gives data engineers complete control and visibility
-            of their pipelines, delivering unparalleled efficiency and confidence
-            in every change. With Meltano, data teams can fetch data from
-            anywhere, send data anywhere, and transform their data their way.
+          Join our community to dive into the collaborative environment that encourages ideation, 
+          experimentation, and continuous learning. 
           </p>
         </div>
       </div>
