@@ -1,22 +1,20 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Dashboard from './components/Dashboard/Dashboard';
-import Events from './components/Events/Events';
-import Founder from './components/Founder/Founder';
-import Team from './components/Team/Team';
-import Footer from './components/Footer/Footer';
+import Main from './Main';
+import Technical from './components/Team/Technical';
 
 function App() {
   return (
-  <div>
-    <Navbar />
-    <Dashboard />
-    <Founder />
-    <Events />
-    <Team />
-    <Footer />
-  </div>
+    <div>
+      {/* <Main /> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/e-cell_website" element={<Main />} />
+          <Route path="/e-cell-technical" element={<Technical />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

@@ -32,7 +32,7 @@ export default function Team() {
       <div className='teams flex'>
         <TeamsCard name="Operations"/>
         <TeamsCard name="Event"/>
-        <TeamsCard name="Technical"/>
+        <TeamsCard name="Technical" link={'/e-cell-technical'}/>
         <TeamsCard name="Design"/>
         <TeamsCard name="Content"/>
       </div>
