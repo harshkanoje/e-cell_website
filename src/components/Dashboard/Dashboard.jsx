@@ -1,9 +1,48 @@
 import React from 'react';
+import {motion} from 'framer-motion';
 import './dashboard.css';
 import Hexagon from '../../images/pattern.svg';
 import BackgroundLight from '../../images/background-light.svg';
 
+
 export default function Dashboard() {
+  const winWidth = window.innerWidth;
+
+  const moveVariants = {
+    animationOne: {
+      x: [-0.1*winWidth, 0.3*winWidth],
+      y: [-100, 200],
+      transition: {
+        x: {
+          repeatType: "mirror",
+          repeat:  Infinity,
+          duration: 5,
+        },
+        y: {
+          repeatType: "mirror",
+          repeat:  Infinity,
+          duration: 4,
+        }
+      }
+    },
+    animationTwo: {
+      x: [-0.2*winWidth, 0.1*winWidth],
+      y: [-200, 100],
+      transition: {
+        x: {
+          repeatType: "mirror",
+          repeat:  Infinity,
+          duration: 6,
+        },
+        y: {
+          repeatType: "mirror",
+          repeat:  Infinity,
+          duration: 3,
+        }
+      }
+    }
+  }
+
   return (
     <div className='dashboard flex'>
     
@@ -19,8 +58,10 @@ export default function Dashboard() {
         Kickstart Your Journey now!
         </p>
         <button className='join-button'>Start Your Journey</button>
-        <img className="background-light bl-1" src={BackgroundLight} alt=""/>
-        <img className="background-light bl-2" src={BackgroundLight} alt=""/>
+        
+        <motion.img variants={moveVariants} animate="animationOne" className="background-light bl-1" src={BackgroundLight} alt=""/>
+        <motion.img variants={moveVariants} animate="animationTwo" className="background-light bl-2" src={BackgroundLight} alt=""/>
+      
       </div>
 
       <div className='about flex'>
