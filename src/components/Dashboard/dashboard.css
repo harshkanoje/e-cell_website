@@ -45,6 +45,17 @@
   align-items: center;
 }
 
+.Typewriter {
+  display: inline-block;
+  overflow: hidden;
+  color: pink;
+  font-size: 3rem;
+  white-space: nowrap;
+  font-weight: bold;
+  animation: typewriter 4s steps(20, end) infinite;
+  padding-top:0.5em;
+}
+
 
 /* Mobile Devices (up to 767px) */
 @media only screen and (max-width: 767px) {
