@@ -15,15 +15,11 @@ export default function Events() {
       <h2><span className='pink-text'>/</span> Events <span className='pink-text'>/</span></h2>   
       <div className='event-cards flex' onMouseEnter={handleTogglePause} onMouseLeave={handleTogglePause}>
         <Marquee className={`event-cards marquee ${isPaused ? 'paused' : ''}`}>
+          
           <EventsCard eventName="AAROHAN" />  
           <EventsCard eventName="PRACHAR" />
-          <EventsCard eventName="PRACHAR" />
-          <EventsCard eventName="PRACHAR" />
-          <EventsCard eventName="PRACHAR" />
-          <EventsCard eventName="PRACHAR" />  
-          <EventsCard eventName="PRACHAR" />
-          <EventsCard eventName="PRACHAR" />
-          <EventsCard eventName="PRACHAR" />
+          <EventsCard eventName="PARICHAY" />
+          <EventsCard eventName="ENTREPRENEUR MEET-UP" />
         </Marquee>
       </div>
     </div>

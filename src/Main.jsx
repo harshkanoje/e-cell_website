@@ -11,7 +11,7 @@ function Main() {
     <div>
       <Navbar />
       <Dashboard />
-      <Founder />
+      {/* <Founder /> */}
       <Events />
       <Team />
       <Footer />
