@@ -10,7 +10,7 @@ function App() {
       {/* <Main /> */}
       <BrowserRouter>
         <Routes>
-          <Route path="/e-cell_website" element={<Main />} />
+          <Route path="/" element={<Main />} />
           <Route path="/e-cell-technical" element={<Technical />} />
         </Routes>
       </BrowserRouter>
