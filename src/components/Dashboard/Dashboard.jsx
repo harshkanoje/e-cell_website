@@ -1,12 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './dashboard.css';
-
+// import Fade from 'react-reveal/Fade';
 import Lottie from 'lottie-react';
 import animationData from './rocket-animation.json'
 import BackgroundLight from '../../images/background-light.svg';
 import Typewriter from 'react-typewriter-effect';
 import './Typewriter';
+// import PopUp from './PopUp';
+import bizgenesis from '../../images/bizgenesis.png';
 
 
 
@@ -57,7 +59,6 @@ export default function Dashboard() {
     <div className='dashboard flex'>
       <div className='heading flex'>
 
-
           <h1> Transforming Dreams into Reality  <br /></h1>
 
           <h1> One Start-Up at a Time!</h1>
@@ -70,10 +71,9 @@ export default function Dashboard() {
               <Typewriter />
             </h2>
           </div>
-
-{/* ======= */}
         
 
+          {/* <PopUp imageUrl={bizgenesis} href="https://codepen.io/soberdash/pen/Mbwabo"/> */}
 
         <p>
           Welcome to the Entrepreneurial Cell of VIT Bhopal,
@@ -99,7 +99,6 @@ export default function Dashboard() {
           </div>
           <div class="col-lg-7 description flex"> 
 
-            <h3>What We Do?</h3>
             <h3>What We Do?</h3>
             <p>
 

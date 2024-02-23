@@ -11,13 +11,13 @@ import Shrinath from '../../images/Shrinath Mishra President.jpg';
 export default function Team() {
   return (
     <div className='team-container'>
-      <div className='team-image flex'>
+      <div className='team-image flex'  style={{  zIndex:"-99"}}>
         <img src={TeamImage} alt='teamImage'/>
         <div className='background-circle'></div>
       </div>
       <div className='team-leads flex'>
-        <h2>Meet the <span className='pink-text'>/</span>team<span className='pink-text'>/</span></h2>
-        <div className='row'>
+        <h2 style={{zIndex:"-1"}}>Meet the <span className='pink-text'>/</span>team<span className='pink-text'>/</span></h2>
+        <div className='row'  style={{zIndex:"-1"}}>
           <div className='col-lg-4'>
             <LeadCards img={BhaktiParashar} name="Dr. Bhakti Parashar" position="Faculty Coordinator"/>
           </div>

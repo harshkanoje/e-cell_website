@@ -2,12 +2,10 @@ import React from 'react';
 import './founder.css';
 import Anant from '../../images/anant_dubey.png';
 import BackgroundLight from '../../images/background-light.svg';
-import  Zoom  from 'react-reveal/Zoom';
 
 function Founder() {
   return (
     <div className='message-container flex'>
-      <Zoom>
       <div className='message'>
         <div className="row">
           <div className="col-lg-4 founder-img flex">
@@ -27,7 +25,6 @@ function Founder() {
         </div>
       </div>
       <img className="background-light bl-3" src={BackgroundLight} alt=""/>
-      </Zoom>
     </div>
   )
 }
