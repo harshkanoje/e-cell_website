@@ -37,6 +37,11 @@ body{
     filter: blur(50px);
     z-index: -1;
   }
+
+  .App {
+    width: 100vw;
+    overflow-y: hidden;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

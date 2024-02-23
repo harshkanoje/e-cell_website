@@ -57,6 +57,7 @@
   padding-top:0.5em;
 }
 
+
 /* @keyframes Typewriter {
   0% {
     width: 0;
@@ -69,7 +70,7 @@
 /* Mobile Devices (up to 767px) */
 @media only screen and (max-width: 767px) {
   .heading{
-    height: 50vh;
+    height: 75vh;
     width: 80vw;
     justify-content: space-evenly;
   }
@@ -107,7 +108,11 @@
   }
 
   .about{
-    height: 65vh;
+    height: 220vw;
+  }
+
+  .about .row{
+    justify-content: center;
   }
 
   .pattern img{
@@ -115,7 +120,8 @@
   }
 
   .description{
-    height: 55vh;
+    align-items: center;
+    height: 120vw;
     width: 90vw;
   }
 

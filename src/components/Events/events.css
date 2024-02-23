@@ -28,6 +28,12 @@
   overflow: hidden;
 }
 
+.marquee.paused {
+  animation-play-state: paused;
+}
+
+
+
 .events-card h3{
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 800;
@@ -57,16 +63,16 @@
 /* Mobile Devices (up to 767px) */
 @media only screen and (max-width: 767px) {
   .events-container{
-    height: 65vh;
+    height: 75vh;
     margin-left: 0vw;
   }
 
   .event-cards{
-    height: 45vh;
+    height: 55vh;
   }
   
   .events-card{
-    height: 35vh;
+    height: 45vh;
     min-width: 60vw;
     margin-right: 2rem;
     margin-left: 2rem;
