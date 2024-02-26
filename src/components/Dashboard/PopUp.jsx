@@ -26,8 +26,9 @@
 // };
 
 // export default PopUp;
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, } from 'react';
 import './PopUp.css';
+import { Link } from 'react-router-dom';
 
 
 const Popup = ({ imageUrl }) => {
@@ -49,8 +50,9 @@ const Popup = ({ imageUrl }) => {
     <div className="popup-overlay">
       <div className="popup-content">
       <button className="close-button" onClick={onClose}> ❌ </button>
-      
+      <Link to="/Forms.jsx"> 
         <img src={imageUrl} alt="Popup" />
+      </Link>
      
       </div>
     </div>

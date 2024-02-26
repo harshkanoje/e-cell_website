@@ -8,7 +8,7 @@ import BackgroundLight from '../../images/background-light.svg';
 import Typewriter from 'react-typewriter-effect';
 import './Typewriter';
 // import PopUp from './PopUp';
-import bizgenesis from '../../images/bizgenesis.png';
+// import bizgenesis from '../../images/bizgenesis.png';
 
 
 
